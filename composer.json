@@ -1,0 +1,22 @@
+{
+    "name": "DavidZadrazil/nette-breadcrumb-bootstrap",
+    "description": "Simple Breadcrumbs navigation generator for Nette Framework",
+    "keywords": ["nette", "breadcrumbs", "menu", "generator"],
+    "homepage": "https://github.com/DavidZadrazil/nette-breadcrumb-bootstrap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Zadražil",
+            "email": "me@davidzadrazil.cz"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "nette/nette": "2.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
