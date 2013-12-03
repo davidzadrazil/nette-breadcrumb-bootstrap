@@ -4,14 +4,14 @@
  * @author David Zadrazil <me@davidzadrazil.cz>
  *}
 
-<ul class="breadcrumb">
+<ol class="breadcrumb">
 	<li n:foreach="$links as $link">
 		<i class="{$link['icon']}" n:if="$link['icon']"></i>
 		{if $link['link']}
 			<a href="{$link['link']}" title="{$link['title']}">{$link['title']}</a>
 		{else}
-			<a n:href="this">{$link['title']}</a>
+			<a n:href="this" class="active">{$link['title']}</a>
 		{/if}
 		<i class="icon-angle-right" n:if="!$iterator->isLast()"></i>
 	</li>
-</ul>
+</ol>
