@@ -1,5 +1,5 @@
 {
-    "name": "DavidZadrazil/nette-breadcrumb-bootstrap",
+    "name": "davidzadrazil/nette-breadcrumb-bootstrap",
     "description": "Simple Breadcrumbs navigation generator for Nette Framework",
     "keywords": ["nette", "breadcrumbs", "menu", "generator"],
     "homepage": "https://github.com/DavidZadrazil/nette-breadcrumb-bootstrap",
