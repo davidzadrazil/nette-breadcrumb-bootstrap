@@ -19,7 +19,7 @@
   "minimum-stability": "alpha",
   "require": {
     "php": "7.4|8.*",
-    "nette/nette": ">=2.0"
+    "nette/application": ">=3.0"
   },
   "autoload": {
     "classmap": [
