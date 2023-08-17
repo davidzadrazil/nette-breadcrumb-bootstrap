@@ -1,25 +1,29 @@
 {
-    "name": "alnux/nette-breadcrumb",
-    "description": "Simple Breadcrumbs navigation generator for Nette Framework",
-    "keywords": ["nette", "breadcrumbs", "generator"],
-    "homepage": "https://github.com/alnux/nette-breadcrumb",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "David Zadražil",
-            "email": "me@davidzadrazil.cz",
-            "name": "Leonardo Allende",
-            "email": "alnux@ya.ru"
-        }
-    ],
-    "minimum-stability": "alpha",
-    "require": {
-        "php": ">=5.3.2",
-        "nette/nette": "~2.0"
-    },
-    "autoload": {
-        "classmap": [
-            "src/"
-        ]
+  "name": "alnux/nette-breadcrumb",
+  "description": "Simple Breadcrumbs navigation generator for Nette Framework",
+  "keywords": [
+    "nette",
+    "breadcrumbs",
+    "generator"
+  ],
+  "homepage": "https://github.com/alnux/nette-breadcrumb",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Zadražil",
+      "email": "me@davidzadrazil.cz",
+      "name": "Leonardo Allende",
+      "email": "alnux@ya.ru"
     }
+  ],
+  "minimum-stability": "alpha",
+  "require": {
+    "php": "7.4|8.*",
+    "nette/nette": ">=3.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
 }
