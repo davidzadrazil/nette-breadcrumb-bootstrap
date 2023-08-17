@@ -22,7 +22,7 @@ Create component in your presenter (idelly in BasePresenter) and add link to the
 ```php
 protected function createComponentBreadCrumb()
 {
-	$breadCrumb = new BreadCrumbControl();
+	$breadCrumb = new \Alnux\NetteBreadCrumb\BreadCrumb();
 	$breadCrumb->addLink('Main page', $this->link('Homepage:'), 'icon-homepage');
 
 	return $breadCrumb;
