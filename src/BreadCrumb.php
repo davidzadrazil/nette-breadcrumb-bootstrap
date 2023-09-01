@@ -12,7 +12,6 @@ namespace Alnux\NetteBreadCrumb;
 
 use Exception;
 use Nette\Application\UI\Control;
-use Nette\Application\UI\Link;
 
 class BreadCrumb extends Control {
     public array $links = [];
@@ -29,7 +28,7 @@ class BreadCrumb extends Control {
         $this->template->render();
     }
 
-    public function addLink(string $title, ?Link $link = NULL, ?string $icon = NULL): void {
+    public function addLink(string $title, $link = NULL, ?string $icon = NULL): void {
         $this->links[md5($title)] = [
             'title' => $title,
             'link' => $link,
@@ -60,7 +59,7 @@ class BreadCrumb extends Control {
      * @param string|null $icon
      * @author Leonardo Allende <alnux@ya.ru>
      */
-    public function editLink(string $title, ?Link $link = null, ?string $icon = null) {
+    public function editLink(string $title, $link = null, ?string $icon = null) {
         if(array_key_exists(md5($title), $this->links)) {
             $this->addLink($title, $link, $icon);
         }
